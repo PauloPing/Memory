@@ -1,0 +1,16 @@
+body{
+  background-color: #FF6F6F;
+}
+
+#memory{
+  width: 100%;
+  display: flex;
+}
+
+#memory__jeu{
+  background-color: red;
+}
+
+#memory__reglage{
+
+}
