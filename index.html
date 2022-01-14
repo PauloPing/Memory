@@ -10,8 +10,18 @@
   <body onload="main()">
     <section id="memory">
       <div id="memory__jeu"></div>
-      <div id="memory__reglage"></div>
-      <!-- <img src="./img/mem7.jpg" alt="" /> -->
+      <div id="memory__parameter">
+        Game parameter
+        <div id="memory__parameterValue">
+          <span id="memory__timer"
+            >Timer : <span id="memory__timerValue"></span
+          ></span>
+          <button id="memory__reload" onclick="restartGame();">
+            Restart a game
+          </button>
+        </div>
+        <span id="memory__result"></span>
+      </div>
     </section>
     <script src="script/carte.js"></script>
     <script src="script/script.js"></script>

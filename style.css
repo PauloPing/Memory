@@ -1,16 +1,95 @@
+html{
+  height: 100%;
+}
+
 body{
-  background-color: #FF6F6F;
+  background-color: #2E4053;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 #memory{
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 #memory__jeu{
-  background-color: red;
+  padding: 1px;
+  background-color: white;
+  border: 2px solid #2874A6;
 }
 
-#memory__reglage{
+#memory__parameter{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 11px;
+  color: white;
+  font-weight: bold;
+}
 
+#memory__parameterValue{
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 5px;
+  border: 3px solid white;
+
+}
+#memory__reload{
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 5px;
+  border: 2px solid #2874A6;
+  color : #2874A6;
+  cursor: pointer;
+}
+
+#memory__timer{
+  color : #61BAF4;
+  /* margin-top: 10px; */
+}
+
+#memory__result{
+  margin-top: 10px;
+}
+
+.win{
+  color: lightgreen;
+}
+
+.loose{
+  color: lightcoral;
+}
+
+.ligne{
+  height: 127px;
+  display: flex;
+  align-items: center;
+}
+
+.imgCase{
+  margin: auto 2px;
+  border-radius: 5px;
+  border: 2px solid #2874A6;
+  /* border: 1px solid black; */
+}
+
+.imgCase:hover{
+  opacity: .5;
+  border: 2px solid #E52B26;
+
+}
+
+.imgCaseActive{
+  margin: auto 2px;
+  border-radius: 5px;
+  border: 2px solid #E52B26;
 }
